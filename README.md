@@ -9,3 +9,5 @@ The main work of this paper is:
 3) The log energy spectra of STFT were processed in different normalized ways and used as the input data of LCNN for experiments.
 4) The analyzation the training effect of the convolutional neural network model.
 ![image](https://github.com/RabbitSea/Anti-spoofing-model-based-on-AlexNet-and-Lcnn/blob/master/AlexNet.PNG)
+
+![image](https://github.com/RabbitSea/Anti-spoofing-model-based-on-AlexNet-and-Lcnn/blob/master/Lcnn.PNG)
