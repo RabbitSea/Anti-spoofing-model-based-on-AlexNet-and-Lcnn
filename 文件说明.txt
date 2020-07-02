@@ -1,0 +1,31 @@
+======================================
+一、
+
+“AlexNet”是利用图片方式处理的语音代码文件
+  包括alexnet、alexnet+svm
+  注意：其中asvspoof17_previous_alexnet_svm是错误代码（算法错误）
+  alexnet：只在训练集上训练
+  alexnet2：在训练集和验证集上训练
+“matlab”文件
+   在MATLAB中处理音频（大概四五小时）
+“computer_eer”计算等错误率（好像没引用）
+======================================
+======================================
+二、
+
+“baseline_CM”基线模型官方代码修改
+用MATLAB运行
+实验用的代码：Copy_of_baseline_CM.m
+              baseline_CM_train_dev.m（模型训练）
+              baseline_CM_test.m（模型测试）
+======================================
+======================================
+三、
+
+“FFT_and_MFCC”
+1. 运行asv2017_feature_extract.py提取特征(注意特征文件存放位置)
+2. asvspoof17_cnn.py主文件
+3.a_LCNN_net.py模型文件
+4.asv2017_Dataset.py数据库文件
+======================================
+其余文件同上
